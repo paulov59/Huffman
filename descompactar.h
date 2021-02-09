@@ -6,7 +6,7 @@
 /*
  * Recebe um ponteiro de arquivo e o nome do arquivo compactado;
  * Prepara o arquivo e chama as funções necessárias para descompactar;
- * //Pedir explicação ao Pedro || Roberto por que returna inteiro//
+ * Retorna um inteiro indicando que a operação foi bem sucedida;
  */
 int descompact(FILE *compactado, char nome[]);
 
